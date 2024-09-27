@@ -1,4 +1,20 @@
-# e-commerce-app
+ 
+# E-commerce-app  REACT JS CoderHouse
+
+![Versión](https://img.shields.io/badge/Versión-0.1.0-blue)
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
+
+Este es el primer lanzamiento de mi proyecto, actualmente en fase de desarrollo.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
 Este proyecto es una aplicación de comercio electrónico desarrollada como parte del curso de Coderhouse - React.js
 
@@ -79,3 +95,7 @@ El proyecto está estructurado en varios componentes clave:
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor haz un fork del repositorio y envía un pull request.
+
+![Estado](https://img.shields.io/badge/Estado-En%20desarrollo-yellow)
+
+![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
