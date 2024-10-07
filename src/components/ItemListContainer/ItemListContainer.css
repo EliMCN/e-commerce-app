@@ -1,0 +1,74 @@
+.ItemListContainer {
+    position: relative; /* Necesario para que las imágenes absolutas se coloquen correctamente */
+    width: 100%;
+    height: auto; /* Altura automática, se ajustará según el contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 3; /* Asegura que esté por encima de otros elementos */
+    padding: 10em; /* Espacio interno para el contenido */
+}
+
+.background-image {
+    position: absolute; /* Coloca la imagen de fondo detrás */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ocupa el 100% del contenedor */
+    height: 100%; /* Ocupará el 100% de la altura del contenedor */
+    z-index: 1; /* Debajo de otros elementos */
+    object-fit: cover; /* Asegura que la imagen cubra el área */
+}
+
+.overlay-image {
+  margin-top:20% ;
+  position: absolute; /* Superposición de imagen */
+  bottom: 0; /* Ajusta la posición según necesites */
+  right: 10px; /* Espacio desde la derecha */
+  width: 70%; /* Tamaño ajustado para móviles */
+  max-width: 600px;
+  height: auto;
+  z-index: 4; /* Encima del fondo, pero debajo del texto */
+}
+
+h1.ultra-regular {
+  margin-top:10%;
+  z-index: 2; /* Asegúrate de que el título esté encima */
+  font-size: 2em; /* Tamaño del texto para móviles */
+  color: var(--text-color);
+  transition: transform 0.3s ease; /* Efecto suave en hover */
+}
+
+h1.ultra-regular:hover {
+  transform: scale(1.2); /* Efecto hover al escalar */
+  text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); /* Añadir sombra al texto en hover */
+}
+
+.autor {  
+  z-index: 3; /* Encima de todo, pero debajo del título */
+  font-size: 1.5em; /* Tamaño del texto del autor más pequeño para móviles */
+  font-weight: 800;
+  color: var(--text-color);
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para mejor legibilidad */
+  padding:1rem;
+  border-radius: 0.5em;
+  width:max-content;    
+  margin: 3rem;
+}
+
+@media (min-width: 768px) {
+.autor{
+  font-size: 3.2em; /* Tamaño del texto del autor más pequeño para móviles */
+  font-weight: 900;
+  width:max-content;    
+  margin: 12rem;
+}
+h1.ultra-regular {
+ 
+ margin-top:25%;
+  font-size: 4em;
+
+}
+
+}

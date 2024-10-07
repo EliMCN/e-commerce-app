@@ -1,0 +1,25 @@
+.cart-widget { 
+  position: relative;
+  top: 0.5rem;
+  right: 1rem;
+  margin-left: auto; /* Empuja el carrito a la derecha */
+  display: flex; /* Asegúrate de que esté visible */
+  align-items: center;
+  justify-content: center;
+}
+.cart-widget i {
+  font-size: 1.5rem; 
+  color: var(--secondary-color);
+  margin:0.5em; 
+}
+
+.item-count {
+  position: absolute;
+  top: -7px; 
+  right: -1px; 
+  background-color: red; 
+  color: white; 
+  border-radius: 50%; 
+  padding: 0.2rem 0.5rem; 
+  font-size: 0.8rem; 
+}

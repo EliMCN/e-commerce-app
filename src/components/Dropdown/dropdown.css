@@ -1,0 +1,37 @@
+/* Estilos para el componente Dropdown, lista desplegable dentro del menu de navegacion. Se encuentra utilizado en en "juegos y juguetes"dentro del Navegable */
+
+.navbar-nav .dropdown {
+  position: relative;
+  right:0;
+}
+
+
+.dropdown-menu {
+  display: none; /* Oculto por defecto */
+  position: absolute; /* Posicionamiento absoluto */
+  left: 50%; /* Centrar horizontalmente */
+  transform: translateX(-50%); /* Ajustar para centrar completamente */
+  background-color: var(--background-color); 
+  padding:0 3rem; /* Espaciado interno */
+  border-radius: 4px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  text-decoration: none; 
+  list-style: none;
+  white-space: nowrap; 
+}
+.dropdown-menu li {
+  margin-bottom: 0.2em; /* Espaciado entre los elementos de la lista */
+}
+.dropdown-menu li a {
+  color: var(--link-color);  
+  font-size: 1em;
+   
+}
+.dropdown-menu li p {  
+  text-decoration: none;  
+  justify-content: column;
+  align-items: center;     
+}
+.dropdown-menu {
+  display: block;/* Muestra el menú al pasar el cursor */
+}
