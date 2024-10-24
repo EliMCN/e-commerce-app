@@ -1,0 +1,31 @@
+.spinner-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  height: 100vh; 
+  background-color: #f9f9f9;  
+}
+
+.loading-content {
+  text-align: center; 
+}
+
+.loading-image {
+  width:200px;
+  max-width: 600px; 
+  margin-bottom: 20px; 
+}
+
+.spinner-text p {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+  color: #333; 
+  margin: 0; 
+}
+
+.spinner-text {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}

@@ -1,37 +1,70 @@
-/* Estilos para el componente Dropdown, lista desplegable dentro del menu de navegacion. Se encuentra utilizado en en "juegos y juguetes"dentro del Navegable */
-
-.navbar-nav .dropdown {
+/* Estilos para Dropdown */
+.dropdown {
   position: relative;
-  right:0;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color:var(--text-color); /* Color de texto */
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 150px; /* Ancho mínimo del dropdown */
+  background-color: #fff; /* Fondo del dropdown */
+  border-radius: 4px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none; /* Oculto por defecto */  
+}
+
+.dropdown.show .dropdown-menu {
+  display: block; /* Mostrar dropdown cuando esté activo */
+}
+
+.dropdown-item {
+  padding: 0.5em;
+  color: #333; /* Color de texto de los elementos */
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Fondo al pasar el mouse */
 }
 
 
-.dropdown-menu {
-  display: none; /* Oculto por defecto */
-  position: absolute; /* Posicionamiento absoluto */
-  left: 50%; /* Centrar horizontalmente */
-  transform: translateX(-50%); /* Ajustar para centrar completamente */
-  background-color: var(--background-color); 
-  padding:0 3rem; /* Espaciado interno */
-  border-radius: 4px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+.btn {
+  display: inline-block; 
+  padding: 12px 20px; 
+  font-size: 16px; 
+  font-weight: bold;
+  color: #ffffff; 
+  background-color: #4CAF50; 
+  border: none; 
+  border-radius: 8px;
+  text-align: center; 
   text-decoration: none; 
-  list-style: none;
-  white-space: nowrap; 
+  transition: background-color 0.3s, transform 0.2s; 
+  cursor: pointer; 
 }
-.dropdown-menu li {
-  margin-bottom: 0.2em; /* Espaciado entre los elementos de la lista */
+
+/* Efecto hover */
+.btn:hover {
+  background-color: #45a049; 
+  transform: translateY(-2px); 
 }
-.dropdown-menu li a {
-  color: var(--link-color);  
-  font-size: 1em;
-   
+
+/* Efecto focus (opcional) */
+.btn:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6); 
 }
-.dropdown-menu li p {  
-  text-decoration: none;  
-  justify-content: column;
-  align-items: center;     
-}
-.dropdown-menu {
-  display: block;/* Muestra el menú al pasar el cursor */
+
+/* Efecto activo (opcional) */
+.btn:active {
+  transform: translateY(0); 
+  box-shadow: none; 
 }

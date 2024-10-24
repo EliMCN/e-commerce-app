@@ -1,0 +1,103 @@
+/* Estilos generales para móviles */
+.card {
+  border: 1px solid var(--gray-light-color);
+  border-radius: 8px;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-color); 
+  max-width: 250px; 
+}
+
+/* Hover effects y estilos específicos */
+.card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+/* Imagen en la tarjeta */
+.img-item {
+  max-width: 100%;
+  height: auto; 
+  border-radius: 8px; 
+}
+
+.card-content {
+  text-align: center; 
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 8px 0; 
+}
+
+.card-price, .card-available{
+  color: var(--gray-dark-color); 
+  font-weight: bold; 
+}
+
+/* Botón de detalles */
+.details-linkbtn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--accent-color);
+  background-color: var(--gray-light-color); 
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.details-linkbtn:hover {
+  text-decoration: none;
+  background-color: var(--dark-accent-color); 
+  transform: scale(1.05); 
+}
+
+.details-linkbtn:active {
+  transform: scale(0.95); 
+}
+
+.details-linkbtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5); 
+}
+
+.hovered {
+  border-color: var(--primary-color); 
+}
+
+/* Media query para pantallas más grandes */
+@media (min-width: 768px) {
+  .card {
+    max-width: 300px; 
+    margin: 1.5em; 
+  }
+  
+  .card-title {
+    font-size: 1.5em; 
+  }
+  
+  .card-price {
+    font-size: 1.2em; 
+  }
+  
+  .details-linkbtn {
+    padding: 12px 24px; 
+    font-size: 1.1em; 
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    max-width: 350px; 
+  }
+}

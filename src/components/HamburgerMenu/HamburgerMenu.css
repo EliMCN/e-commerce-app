@@ -1,0 +1,30 @@
+/* Botón hamburguesa visible en pantallas pequeñas */
+.navbar-toggle {
+  display: block;
+  margin-left:1em;
+  background: transparent;  
+  font-size: 1.2em;
+  cursor: pointer;
+  border: none;  
+}
+
+.navbar-toggle.active {
+  color: var(--gray-dark-color); /* Cambia de color al hacer clic */
+  background: transparent;
+  outline: none;
+}
+.navbar-toggle:focus {
+  outline: none; 
+  box-shadow: none; 
+}
+/* Ajustes de tamaño de ícono */
+i.bi-list, i.bi-x-circle {
+  font-size: 1em; 
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+}

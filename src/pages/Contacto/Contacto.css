@@ -1,0 +1,21 @@
+/* Contacto.css */
+.contacto-container {
+  max-width: 600px; 
+  margin: 2em auto; 
+  padding: 20px; 
+  background-color: var(--background-color); 
+  border: 1px solid var(--gray-light-color); 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px var(--box-shadow);
+ }
+
+.titulo {
+  text-align: center; 
+  color: var(--text-color); 
+}
+
+.descripcion {
+  text-align: center; 
+  color: var(--secondary-text-color); 
+  margin-bottom: 20px; 
+}

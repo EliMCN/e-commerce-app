@@ -1,0 +1,45 @@
+/* EjemploFormulario.css */
+.formulario {
+  max-width: 400px; 
+  margin: 0 auto; 
+  padding: 20px; 
+    border: 1px solid var(--gray-light-color); 
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px var(--box-shadow); 
+  background-color: var(--background-color); 
+}
+
+.formulario label {
+  display: block; 
+  margin-bottom: 8px; 
+  color: var(--text-color); 
+}
+
+.formulario input, .formulario select, .formulario textarea{
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid var(--gray-dark-color); 
+  border-radius: 4px; 
+  font-size: 16px; 
+  color: var(--text-color); 
+}
+
+.formulario input:focus, .formulario select:focus, .formulario textarea:focus{
+  border-color: var(--primary-color); 
+  outline: none; 
+}
+
+.formulario button {
+  padding: 10px 15px; 
+  background-color: var(--secondary-color); 
+  color:var(--background-color); 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 16px; 
+}
+
+.formulario button:hover {
+  background-color: var(--primary-color); 
+}
