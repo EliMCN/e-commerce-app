@@ -1,4 +1,4 @@
- 
+
 # E-commerce-app  REACT JS CoderHouse
 
 ![Versión](https://img.shields.io/badge/Versión-0.1.0-blue)
@@ -80,15 +80,19 @@ El proyecto está estructurado en varios componentes clave:
 ## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio.
+
    ```bash
     git clone https://github.com/EliMCN/e-commerce-app.git
 2. Navega a la carpeta del proyecto.
+
    ```bash
      cd e-commerce-app
 3. Instala las dependencias:
+
    ```bash
     npm install
 4. Inicia el servidor de desarrollo:
+
    ```bash
      npm run dev
 

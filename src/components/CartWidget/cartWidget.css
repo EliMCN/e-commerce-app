@@ -1,25 +1,32 @@
-.cart-widget { 
-  position: relative;
-  top: 0.5rem;
-  right: 1rem;
-  margin-left: auto; /* Empuja el carrito a la derecha */
-  display: flex; /* Asegúrate de que esté visible */
+
+ /* Carrito */
+.cart-widget{
+  position:relative;
+  display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-}
+  padding: 0 1rem;
+}  
+
 .cart-widget i {
-  font-size: 1.5rem; 
+  font-size: 1.8rem; 
   color: var(--secondary-color);
-  margin:0.5em; 
+  margin:0.2em; 
 }
 
 .item-count {
   position: absolute;
-  top: -7px; 
+  top: -3px; 
   right: -1px; 
   background-color: red; 
   color: white; 
   border-radius: 50%; 
   padding: 0.2rem 0.5rem; 
   font-size: 0.8rem; 
+}
+
+@media (min-width: 768px) {
+  .cart-widget {
+    margin-left: auto; /* Forzar el carrito al extremo derecho */
+  }
 }

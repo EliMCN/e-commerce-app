@@ -1,76 +1,103 @@
 import {useState} from "react";
 import "./Navbar.css";
 import "../Dropdown/dropdown.css";
-import "../CartWidget/CartWidget.css"
+import "../CartWidget/CartWidget.css";
+import "../HamburgerMenu/HamburgerMenu.css"
 import Dropdown from "../Dropdown/Dropdown";
 import CartWidget from "../CartWidget/CartWidget";
-import logo from "../../assets/dino-logo.png";
+import HamburgerMenu from "../HamburgerMenu/HamburgerMenu"; 
+import logo from "../../assets/logo_blanco.webp";
+import {Link} from "react-router-dom";
+
+
 
 function Navbar() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const itemCount = 5;
 
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen);
     console.log("isNavOpen:", !isNavOpen);
   };
-
-  const buttonStyle = isNavOpen ? "navbar-toggle active" : "navbar-toggle";
-
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
   const categories = [
-    {id: 1, name: "Mochilas", link: "Construccion.html"},
-    {id: 2, name: "Arte y Manualidades", link: "Construccion.html"},
-    {id: 3, name: "Electrónicos para Niños", link: "Construccion.html"},
-    {id: 4, name: "Hobbies", link: "Construccion.html"},
-    {id: 5, name: "Juegos de Agua y Playa", link: "Construccion.html"},
-    {id: 6, name: "Juegos de Mesa y Cartas", link: "Construccion.html"},
-    {id: 7, name: "Juegos de Salón", link: "Construccion.html"},
-    {id: 8, name: "Juguetes de Construcción", link: "Construccion.html"},
-    {id: 9, name: "Juguetes de Oficios", link: "Construccion.html"},
-    {id: 10, name: "Juguetes para Bebés", link: "Construccion.html"},
-    {id: 11, name: "Muñecos y Muñecas", link: "Construccion.html"},
-    {id: 12, name: "Vehículos de Juguete", link: "Construccion.html"},
+    {category_id: 1, name: "Mochilas", link: "/category/mochilas"},
+    {category_id: 2, name: "Librería", link: "/category/libreria"},
+    {category_idid: 3, name: "Computación", link: "/category/computacion"},
+    {
+      category_id: 4,
+      name: "Juegos de Agua y Playa",
+      link: "/category/juegos-agua-playa",
+    },
+    {
+      category_id: 5,
+      name: "Juegos de Mesa y Cartas",
+      link: "/category/juegos-mesa-cartas",
+    },
+    {
+      category_id: 6,
+      name: "Juguetes de Construcción",
+      link: "/category/juguetes-construccion",
+    },
+    {
+      category_id: 7,
+      name: "Juguetes para Bebés",
+      link: "/category/juguetes-bebes",
+    },
+    {
+      category_id: 8,
+      name: "Muñecos y Muñecas",
+      link: "/category/munecos-munecas",
+    },
+    {
+      category_id: 9,
+      name: "Vehículos de Juguete",
+      link: "/category/vehiculos-juguete",
+    },
   ];
 
   return (
     <nav className="navbar">
-      {/* Encabezado principal con logo y botón hamburguesa */}
-      <div className="navbar-header">
-        <div className="navbar-brand-logo">
-          <a className="navbar-brand-logo-link" href="index.html">
-            <img className="logo" src={logo} alt="Logo" />
-            <span className="spicy-rice-regular">DINO Juguetería</span>
-          </a>
-        </div>
-        <button
-          className={buttonStyle}
-          onClick={toggleNav}
-          aria-label="Toggle navigation"
-          aria-expanded={isNavOpen} // Indica si el menú está abierto
-        >
-          <i className={`bi ${isNavOpen ? "bi-x-circle" : "bi-list"}`}></i>
-        </button>
-        
-      </div>
+      <div className="navbar-container">
+        {/* Logo */}
+        <Link to="/">
+          <img className="logo" src={logo} alt="Logo" />
+        </Link>
 
-      {/* Menú de navegación, se despliega cuando isNavOpen es true */}
-      <div className={`navbar-collapse ${isNavOpen ? "open" : ""}`}>
-        <ul className="navbar-nav">
-          <li>
-            <a href="Construccion.html">OFERTAS</a>
-          </li>
-          <li>
-            <a href="Construccion.html">Tienda Online</a>
-          </li>
-          <Dropdown categories={categories} />
-          <li>
-            <a href="Construccion.html">Contacto</a>
-          </li>
-        </ul>
-        {/* Carrito al final del navbar */}
-       
+        {/* Botón Hamburguesa para móviles */}
+        <HamburgerMenu isNavOpen={isNavOpen} toggleNav={toggleNav} />
+
+        {/* Menú de Navegación */}
+        <div className={`navbar-collapse ${isNavOpen ? "open" : ""}`}>
+          <ul className="navbar-nav spicy-rice-regular">
+            <li>
+              <Link to="/Ofertas">OFERTAS</Link>
+            </li>
+            <li>
+              <Link to="/Tienda">Tienda Online</Link>
+            </li>
+            <li>
+              <Link to="/Store">Prueba error</Link>
+            </li>
+            <li>
+              <Dropdown
+                categories={categories}
+                isOpen={isDropdownOpen}
+                toggleDropdown={toggleDropdown}
+              />
+            </li>
+            <li>
+              <Link to="/Contacto">CONTACTO</Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Carrito */}
+        <CartWidget itemCount={itemCount} />
       </div>
-      <CartWidget itemCount={itemCount} />
     </nav>
   );
 }
