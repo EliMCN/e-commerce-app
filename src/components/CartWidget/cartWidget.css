@@ -1,32 +1,84 @@
-
- /* Carrito */
-.cart-widget{
-  position:relative;
+/* Estilos base para el carrito en el header */
+.cart-widget {
+  position: relative;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
-  padding: 0 1rem;
-}  
+  padding: 0 var(--spacing-sm);
+  margin-left: auto;
+  text-decoration: none;
+}
 
 .cart-widget i {
-  font-size: 1.8rem; 
-  color: var(--secondary-color);
-  margin:0.2em; 
+  font-size: 1.6rem;  
+  margin-right: var(--spacing-xs);
+  transition: color 0.3s ease;
 }
 
 .item-count {
   position: absolute;
-  top: -3px; 
-  right: -1px; 
-  background-color: red; 
-  color: white; 
-  border-radius: 50%; 
-  padding: 0.2rem 0.5rem; 
-  font-size: 0.8rem; 
+  top: -3px;
+  right: -3px;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 50%;
+  padding: 0.15rem 0.4rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+/* Estilos para carrito lleno */
+.cart-full i {
+  color: var(--primary-color);
 }
 
-@media (min-width: 768px) {
+/* Estilos para carrito vacío */
+.cart-empty i {
+  color: var(--secondary-color-light);
+  opacity: 0.6;
+}
+
+
+/* Estilos específicos para el CartWidget en el offcanvas */
+.offcanvas .cart-widget {
+  position: static; /* Elimina la posición absoluta */
+  justify-content: flex-start;
+  gap: var(--spacing-xs); /* Espacio entre el ícono y el contador */
+}
+
+.offcanvas .item-count {
+  position: static; /* Desactiva el posicionamiento absoluto */
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border-radius: 50%;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* Breakpoints Responsivos */
+@media (min-width: var(--breakpoint-xs)) {
+  .cart-widget i {
+    font-size: 1.8rem;
+  }
+  
+  .item-count {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+  }
+}
+
+@media (min-width: var(--breakpoint-sm)) {
   .cart-widget {
-    margin-left: auto; /* Forzar el carrito al extremo derecho */
+    padding: 0 var(--spacing-md);
+  }
+  
+  .cart-widget i {
+    font-size: 2rem;
+  }
+
+  .item-count {
+    font-size: 0.85rem;
+    top: -5px;
+    right: -5px;
+    padding: 0.25rem 0.6rem;
   }
 }

@@ -9,13 +9,12 @@ import "./itemCount.css";
 import Swal from "sweetalert2";
 
 
-const ItemCount = ({stock, initial=1, onAdd, itemName}) => {
+const ItemCount = ({stock, initial = 1, onAdd, itemName}) => {
   // Estado para manejar la cantidad seleccionada
   const [quantity, setQuantity] = useState(initial);
   //Para deshabilitar los botones cuando corresponda, ejemplo sin stock
   const disableIncrement = quantity >= stock;
   const disableDecrement = quantity <= 1;
-
 
   function pluralizeWord(singularWord, pluralWord) {
     return quantity > 1 ? pluralWord : singularWord;
@@ -25,7 +24,6 @@ const ItemCount = ({stock, initial=1, onAdd, itemName}) => {
     if (quantity < stock) {
       setQuantity(quantity + 1);
       console.log(`Cantidad incrementada: ${quantity + 1}`);
-
     } else {
       const Toast = Swal.mixin({
         toast: true,
@@ -83,7 +81,7 @@ const ItemCount = ({stock, initial=1, onAdd, itemName}) => {
         )} al carrito`,
       });
       onAdd(quantity);
-        
+
       // Resetear la cantidad a su valor inicial después de agregar, para que si sigue comprando ya este en 1 la cantidad. Sino deberia decrementar si compra 2 o mas anteriormente.
       setQuantity(initial); // Esto restablece quantity a 1, seteado en inicial
     }
@@ -109,7 +107,7 @@ const ItemCount = ({stock, initial=1, onAdd, itemName}) => {
         onClick={handleAddToCart}
         disabled={stock === 0}
       >
-        Agregar 
+        Agregar
       </button>
     </div>
   );

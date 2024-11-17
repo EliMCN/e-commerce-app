@@ -3,12 +3,13 @@ import {getProducts} from "../../data/data.js";
 import {useParams} from "react-router-dom";
 import ItemDetail from "../ItemDetail/ItemDetail.jsx/";
 import LoadingSpinner from "../LoadingSpinner/LoadingSpinner.jsx";
+import "./ItemDetailContainer.css"
 
 const ItemDetailContainer = () => {
   const [loading, setLoading] = useState(true);
   const [product, setProduct] = useState({});
   const [error, setError] = useState(null); // Estado para manejar errores
-  const {item_id} = useParams();
+  const {idProduct} = useParams();
 
   useEffect(() => {
     setLoading(true); // Comienza la carga
@@ -16,9 +17,11 @@ const ItemDetailContainer = () => {
 
     getProducts()
       .then((data) => {
-        const findProduct = data.find((product) => product.id === item_id);
+        const findProduct = data.find(
+          (product) => product.item_id === idProduct
+        );
         if (!findProduct) {
-          setError("Producto no encontrado."); 
+          setError("Producto no encontrado.");
         } else {
           setProduct(findProduct);
         }
@@ -30,7 +33,7 @@ const ItemDetailContainer = () => {
       .finally(() => {
         setLoading(false); // Termina la carga
       });
-  }, [item_id]);
+  }, [idProduct]);
 
   if (loading) {
     return <LoadingSpinner loading={loading} />;

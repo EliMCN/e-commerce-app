@@ -1,13 +1,8 @@
-
-
-
-
-
 .container-app {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-width: 375px;
-  max-width: 1280px;
+  width: 100%;
   min-height: 100vh;  
   background-color: var(--gray-light-color);
 }
@@ -22,11 +17,16 @@ header {
 .container-main {
   grid-row: 2 / 3;
   min-width: 375px;
-  max-width: 1280px; 
+  width: 100%; 
   height: auto;   
-  margin-top: 5em ;  
   position: relative;
-}
+  /* Centrado de elementos dentro de .container-main */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin-top:9em; 
+  }
 
 footer {
   grid-row: 3 / 4;

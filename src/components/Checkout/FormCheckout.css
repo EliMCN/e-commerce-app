@@ -1,0 +1,59 @@
+
+
+
+/* Formulario */
+.checkout-form {
+  padding: var(--spacing-md);
+  background-color: var(--gray-light-color);
+  border-radius: var(--spacing-xs);
+  box-shadow: 0 4px 6px var(--box-shadow);
+}
+
+.form-group {
+  margin-bottom: var(--spacing-sm);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing-xs);
+  color: var(--secondary-text-color);
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+  border: 1px solid var(--gray-dark-color);
+  border-radius: var(--spacing-xs);
+  font-size: var(--font-size-base);
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: var(--spacing-xs);
+}
+
+.btn-submit {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: var(--spacing-sm);
+  font-size: var(--font-size-base);
+  border-radius: var(--spacing-xs);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: var(--accent-color);
+}

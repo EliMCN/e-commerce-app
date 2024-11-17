@@ -1,5 +1,5 @@
 import EjemploFormulario from "../../components/Form/Form";
-import "../Contacto/Contacto.css";
+import "./Contacto.css";
 
 const Contacto = () => {
   return (
