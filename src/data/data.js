@@ -10,8 +10,7 @@ const products = [
       'Este juguete estimula la motricidad, el razonamiento, el aprendizaje, la coordinación ojo-mano, la vista y la habilidad manual; incluye una guía "Mi Bebé" y 5 cubos apilables para aprender las vocales y los números del 1 al 5. Edad recomendada: +12 meses, medidas del packaging: 23 x 18 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.',
     retail_price: "13324.19",
     final_retail_price: 11325.56,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 15,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0042_1.jpg",
@@ -29,8 +28,7 @@ const products = [
       'Este juguete estimula la motricidad, el razonamiento, el aprendizaje, la coordinación ojo-mano, la vista y la habilidad manual; incluye una guía "Mi Bebé" y 10 cubos apilables para aprender letras, figuras y números. Edad recomendada: +12 meses, medidas del packaging: 28 x 25 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.',
     retail_price: "20841.20",
     final_retail_price: 18757.08,
-    stock: 0,
-    available: "No disponible",
+    stock: 0,    
     discount: 10,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0043_1.jpg",
@@ -48,8 +46,7 @@ const products = [
       'El Monta Figuras estimula la destreza manual y la coordinación ojo-mano; su simplicidad favorece el armado de figuras que el niño puede asignarles significados, mientras que el contraste de colores y los brillos de las piezas facilitan la diferenciación y ayudan a desarrollar habilidades relacionadas con el planeamiento motor. La línea Bimbi acompaña al bebé en todas las etapas de su desarrollo e incluye una guía "Mi Bebé" y 8 piezas plásticas de diferentes colores y formas. Edad recomendada: 12 - 36 meses, medidas del packaging: 18 x 23 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.',
     retail_price: "11864.58",
     final_retail_price: 11864.58,
-    stock: 12,
-    available: "Disponible",
+    stock: 12,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0044_1.jpg",
@@ -67,8 +64,7 @@ const products = [
       'Este sonajero de mano estimula la destreza manual del niño gracias a su mecanismo y movimiento; la Maraquita Bimbi promueve el juego libre e individual, permitiendo al niño explorar el juguete a su propio ritmo y representarlo mentalmente desde su funcionamiento. Los colores fuertes, divertidas formas y sonidos estimulan el desarrollo de percepciones visuales y auditivas, además de estimular la motricidad global, comprensión causa-efecto, habilidad manual, coordinación ojo-mano, estimulación sensorial y auditiva. Es adaptable para niños con discapacidad motora y visual. Incluye una guía "Mi Bebé", un tester de seguridad de partes pequeñas y 1 sonajero Maraquita. Edad recomendada: 0 - 24 meses, medidas del packaging: 28 x 25 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes',
     retail_price: "9539.62",
     final_retail_price: 9539.62,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0046_1.jpg",
@@ -86,8 +82,7 @@ const products = [
       'La Línea Bimbi acompaña al bebé en todas las etapas de su desarrollo, ayudando a la destreza manual del niño gracias a su mecanismo y movimiento; su simplicidad estimula el juego libre e individual, permitiendo al niño explorar el juguete a su propio ritmo y representarlo mentalmente. A partir de los 4 meses, comienza a desarrollar habilidades motrices como encastrar, empujar y mover objetos, estimulando su creatividad. Este juguete estimula la motricidad global, comprensión causa-efecto, habilidad manual, coordinación ojo-mano, estimulación auditiva y sensorial, y es adaptable para niños con discapacidad motora y visual. Incluye una guía "Mi Bebé" y 1 sonajero de mesa Molinito con ventosa. Edad recomendada: 3 a 18 meses, medidas del packaging: 28 x 25 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.',
     retail_price: "10728.16",
     final_retail_price: 9655.35,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 10,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0053_1.jpg",
@@ -105,8 +100,7 @@ const products = [
       "Más resistente: conectores inyectados, caños más robustos de 5 cm de diámetro; recomendado para niños de +3 años, con medidas del arco de 1,2 x 0,8 x 0,65 mts. Medida del packaging: 62 x 25 x 17 cm. NO INCLUYE PELOTA, se sugiere utilizar este producto con pelota de fútbol N°3 en adelante. Producto NO TÓXICO, fabricado sin ftalatos ni colorantes. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar.",
     retail_price: "68549.73",
     final_retail_price: 68549.73,
-    stock: 23,
-    available: "Disponible",
+    stock: 23,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0196_1.jpg",
@@ -124,8 +118,7 @@ const products = [
       "Se pueden armar 2 arcos chicos (medida 1,2 x 0,8 x 0,65 mts) o 1 arco grande (medida 1,8 x 1,2 x 0,65 mts). Más resistente: conectores inyectados y caños más robustos de 5 cm de diámetro; recomendado para niños de +3 años. Medida del packaging: 62 x 32 x 21 cm. NO INCLUYE PELOTA, se sugiere utilizar este producto con pelota de fútbol N°3 en adelante. Producto NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "177009.47",
     final_retail_price: 168158.99,
-    stock: 23,
-    available: "Disponible",
+    stock: 23,    
     discount: 5,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0198_1.jpg",
@@ -143,8 +136,7 @@ const products = [
       "Bloques grandes para los más chicos, el más económico del mercado; presentación DOY-PACK con abre y cierra fácil para jugar y volver a guardar las piezas. Incluye 4 ruedas y 20 bloques de colores. Edad: +3 años. Medidas del packaging: 24 x 30 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "7921.53",
     final_retail_price: 7921.53,
-    stock: 33,
-    available: "Disponible",
+    stock: 33,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0250_1.jpg",
@@ -162,8 +154,7 @@ const products = [
       "Bloques grandes para los más chicos, el más económico del mercado; presentación DOY-PACK con abre y cierra fácil para jugar y volver a guardar las piezas. Incluye 4 ruedas y 32 bloques de colores. Edad: +3 años. Medidas del packaging: 24 x 40 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "9581.32",
     final_retail_price: 9581.32,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0251_1.jpg",
@@ -181,8 +172,7 @@ const products = [
       "Con Blocky Fantasía podrán crear su propio mundo tal como siempre lo soñaron; estimula la creatividad, la imaginación, incentiva el razonamiento y favorece la interacción con otros chicos. Incluye manual de ideas, 105 piezas (bloques + stickers + accesorios especiales). Edad: 3 a 9 años. Medida packaging: 25 x 17 x 5 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "17703.03",
     final_retail_price: 17703.03,
-    stock: 14,
-    available: "Disponible",
+    stock: 14,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0615_1.jpg",
@@ -200,8 +190,7 @@ const products = [
       "Nueva línea unisex que incluye toda la variedad de piezas Armatron de colores varios para armar animales, dinosaurios, robots, casas, vehículos y mucho más; contiene 100 piezas, incluye manual de ideas. Edad: 5 a 10 años. Medida packaging: 34 x 25 x 5 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "26669.23",
     final_retail_price: 26669.23,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-0764_1.jpg",
@@ -219,8 +208,7 @@ const products = [
       "Presentamos una gran variedad de colores para los que prefieren dejar volar su imaginación y armar sus propios modelos; kit de 100 piezas básicas para armar construcciones sencillas o agregar más piezas. Incluye 100 piezas básicas. Edad: +3 años. Medida packaging: 30 x 21 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "18745.61",
     final_retail_price: 18745.61,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/0/1/01-1008_3_1_1.jpg",
@@ -238,8 +226,7 @@ const products = [
       "Con la nueva línea Autos & Camiones de Rasti vas a poder armar muchos más modelos; primero elegís el chasis, después tu modelo y a jugar. Incluye muñeco y guía de armado súper fácil. ¡Con este producto podrás armar 20 espectaculares vehículos de a uno por vez: camiones tripulados, con acoplado y de carrera; auto F1, súper hot rod, turbo dragster, excavadora, topadora y mucho más! Contiene: 175 piezas, 1 guía de armado, 1 muñeco. Edad: + 4 años. Medida packaging: 40 x 30 x 7 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes. Las fotos son de carácter ilustrativo. Los colores de las piezas pueden variar",
     retail_price: "44393.11",
     final_retail_price: 44393.11,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-1080_1.jpg",
@@ -257,8 +244,7 @@ const products = [
       "Las piezas Crico son ideales para niños mayores de 3 años por su fácil encastre, diversidad de colores y formas. ¡Con Crico crecé jugando! Compatible con otras marcas. Incluye: 90 piezas, stickers y cabeza para armar a Milo, el muñeco de Crico. Edad: + 3 años. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "37512.08",
     final_retail_price: 37512.08,
-    stock: 7,
-    available: "Disponible",
+    stock: 7,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/1/01-3057_3.jpg",
@@ -276,8 +262,7 @@ const products = [
       "El movimiento del personaje despierta la capacidad de asombro y alienta a la repetición y exploración del funcionamiento. Representa una forma familiar y divertida para el bebé. Las distintas partes del producto estimularán el tacto y la habilidad manual, desarrollando la prensión y el traslado de objetos, favoreciendo la coordinación ojo-mano. Promueve el ensayo-error y la tolerancia durante la actividad. El niño incorpora los conceptos de causa y efecto, planeamiento y secuenciación. Incluye: 1 tortuga con caparazón giratorio y 1 contenedor. Edad: + 3 meses. Medida packaging: 25 x 16 x 7,5 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes",
     retail_price: "8319.80",
     final_retail_price: 8319.8,
-    stock: 9,
-    available: "Disponible",
+    stock: 9,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/2/02-4200_1.jpg",
@@ -295,8 +280,7 @@ const products = [
       "Los movimientos de tu bebé para alcanzar las distintas partes móviles e interactuar con ellas entrenarán su desarrollo físico. Los sonajeros colgantes alentarán a tu bebé a estirar los brazos para interactuar con los personajes, entrenando su coordinación ojo-mano. El contacto con las distintas actividades ayudará a desarrollar su motricidad fina. Los colores del producto permiten la discriminación de las partes por el alto contraste de los tonos. Las diferentes formas y movimientos despertarán la curiosidad de tu bebé, invitándolo a explorar y experimentar nuevas experiencias. Incluye: 1 Gimnasio con 3 sonajeros desencastrables. Edad: + 0 meses. Medida packaging: 51 x 29 x 9 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes.",
     retail_price: "50659.03",
     final_retail_price: 50659.03,
-    stock: "0",
-    available: "No Disponible",
+    stock: "0",    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/2/02-4202_1.jpg",
@@ -314,8 +298,7 @@ const products = [
       "Las formas familiares alentarán a tu bebé a estirar los brazos para alcanzar los personajes en movimiento, entrenando su coordinación ojo-mano. Al girar los personajes y repetirse la música, el niño incorporará los conceptos de planeamiento y secuenciación. Este juguete incentiva la capacidad auditiva, ayudando a asociar la música suave y tranquilizadora al momento de dormir y a adquirir rutinas saludables. Los colores del producto permiten la discriminación de las partes por el alto contraste. Incluye: 1 cunero giratorio con melodías. Edad: + 0 meses. Medida packaging: 31 x 10 x 25 cm. Juguete NO TÓXICO, fabricado sin ftalatos ni colorantes",
     retail_price: "31642.34",
     final_retail_price: 31642.34,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "http://ecommerce.dimare.com.ar/media/catalog/product/0/2/02-4201_1.jpg",
@@ -333,8 +316,7 @@ const products = [
       "Baby Steps es el clásico andador para aprender a caminar. Está equipado con una sillita acolchada con una funda lavable de divertidos colores, regulable en altura para que el bebé pueda sentarse o tocar el piso con sus pies y caminar. Posee un moderno sistema de seguridad que frena las 4 ruedas al detectar desniveles en el piso. Además, se pliega de manera compacta, permitiendo guardarlo debajo de cualquier cama. Edad recomendada: A partir de 6 meses. Dimensiones: 77 x 61.5 x 57 cm.",
     retail_price: "79874.58",
     final_retail_price: 79874.58,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/baby_steps_rosa_rondi-988c5576a1ada3d8d516631072330791-640-0.webp",
@@ -352,8 +334,7 @@ const products = [
       "Baby Steps es el clásico andador para aprender a caminar. Está equipado con una sillita acolchada con una funda lavable de divertidos colores, regulable en altura para que el bebé pueda sentarse o tocar el piso con sus pies y caminar. Posee un moderno sistema de seguridad que frena las 4 ruedas al detectar desniveles en el piso. Además, se pliega de manera compacta, permitiendo guardarlo debajo de cualquier cama. Edad recomendada: A partir de 6 meses. Dimensiones: 77 x 61.5 x 57 cm.",
     retail_price: "79874.58",
     final_retail_price: 79874.58,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/baby_steps_rosa_rondi-988c5576a1ada3d8d516631072330791-640-0.webp",
@@ -371,8 +352,7 @@ const products = [
       "Gimnasio para Bebés: un juguete transportable y desarmable, diseñado con formas atractivas, colores llamativos y diversas texturas para estimular los sentidos y la motricidad del niño. Edad recomendada: Desde el nacimiento. Dimensiones: 60 x 47 x 53 cm.",
     retail_price: "23001.26",
     final_retail_price: 23001.26,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/baby_gym_rondi-8a3aaf773aae01d37f16590555480882-640-0.webp",
@@ -390,8 +370,7 @@ const products = [
       "Baby Chair: En la Familia Rondi amamos a los niños y entendemos la importancia de los primeros juguetes. Baby Chair es un concepto innovador, entretenido, colorido y práctico, que acompañará a tu bebé durante sus primeros dos años de vida. Ofrece múltiples variedades y posiciones, permitiendo que tu bebé duerma, coma, juegue, ría y fantasee cabalgando su propio pony, siempre con la tranquilidad de estar contenido y protegido. Edad recomendada: A partir de 3 meses. Dimensiones: 56 x 40.5 x 47 cm.",
     retail_price: "60286.98",
     final_retail_price: 60286.98,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/baby_chair_rondi-2dfb63c29099f0006916590555226131-640-0.webp",
@@ -409,8 +388,7 @@ const products = [
       "Baby Sports: ¡Un concepto innovador para la iniciación de los chicos en el deporte desde muy pequeños! Este juguete ha transformado la forma de jugar, planteando un desafío que incentiva a los niños a participar en actividades físicas, mejorando su sincronización y precisión. Edad recomendada: A partir de 12 meses. Dimensiones: 40.5 x 70 x 69 cm.",
     retail_price: "62485.60",
     final_retail_price: 62485.6,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/baby_sports_rondi-45c11bbfa041d6831416590555291467-640-0.webp",
@@ -428,8 +406,7 @@ const products = [
       "Rondi quiere estar presente en cada etapa de la vida de tu bebé, por eso pensó en este juguete que lo incentivará y ayudará a dar sus primeros pasitos. FirstSteps estimula los sentidos con sus formas y colores. Agiliza la movilidad mejorando la coordinación, el equilibrio y la motricidad gruesa hasta dar sus primeros pasos. Además, incentiva el aprendizaje, mejorando las destrezas del pensamiento. Edad recomendada: A partir de 6 meses. Dimensiones: 45.5 x 41 x 36 cm.",
     retail_price: "38307.33",
     final_retail_price: 38307.33,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/first_steps_rondi-c4e5bb6c808a12492916590555353943-640-0.webp",
@@ -447,8 +424,7 @@ const products = [
       "Rondi quiere estar presente en cada etapa de la vida de tu bebé, por eso pensó en este juguete que lo incentivará y ayudará a dar sus primeros pasitos. FirstSteps estimula los sentidos con sus formas y colores. Agiliza la movilidad mejorando la coordinación, el equilibrio y la motricidad gruesa hasta dar sus primeros pasos. Además, incentiva el aprendizaje, mejorando las destrezas del pensamiento. Edad recomendada: A partir de 6 meses. Dimensiones: 45.5 x 41 x 36 cm.",
     retail_price: "38307.33",
     final_retail_price: 38307.33,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/first_steps_rosa_rondi-b01f7bf0502e813e5f16631082412750-640-0.webp",
@@ -466,8 +442,7 @@ const products = [
       "Activity Gym de Rondi: nada como ver a tu bebé tratando de alcanzar un color, un sonido o una forma que lo estimule a hacer sus primeros movimientos. Este juguete estimula los sentidos, moviliza brazos y piernas, y fortalece la coordinación entre ojos, manos y pies, mejorando las destrezas del pensamiento. Edad recomendada: A partir de 6 meses. Dimensiones: 61 x 47.5 x 57 cm.",
     retail_price: "30909.70",
     final_retail_price: 30909.7,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/activity_gym_rondi-498d7e159ce0722a2e16590555162263-1024-1024.webp",
@@ -485,8 +460,7 @@ const products = [
       "Brick Fun Rondi: un divertido juego de encastre que incluye un balde con tapa y 48 ladrillos de encastre. Edad recomendada: A partir de 6 meses.",
     retail_price: "9000.00",
     final_retail_price: 9000,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rondi_baby_fun-6409c976b414a9aef317002049557244-640-0.webp",
@@ -504,8 +478,7 @@ const products = [
       "Baby Fun Rondi: Incluye un balde con tapa y 7 piezas de encastre. Edad recomendada: A partir de 6 meses.",
     retail_price: "9000.00",
     final_retail_price: 9000,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rondi_baby_fun-6409c976b414a9aef317002049557244-640-0.webp",
@@ -523,8 +496,7 @@ const products = [
       "Mechanic Fun Rondi: Incluye un balde con tapa, 36 piezas para armar y 2 herramientas. Edad recomendada: A partir de 6 meses.",
     retail_price: "9000.00",
     final_retail_price: 9000,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rondi_mechanic_fun-4829f9898d120ff0f217002049435095-640-0.webp",
@@ -542,8 +514,7 @@ const products = [
       "Water Fun Rondi: Incluye un balde con tapa y molino, 2 veleros y 1 jarra. Edad recomendada: A partir de 6 meses.",
     retail_price: "9000.00",
     final_retail_price: 9000,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rondi_mechanic_fun-4829f9898d120ff0f217002049435095-640-0.webp",
@@ -561,8 +532,7 @@ const products = [
       "Paseador Extra Resistente: Con un diseño único que llevará a tu nene a donde quiera, se adapta a las diferentes necesidades de los chiquitos durante su crecimiento. Posee barra de arrastre, apoyapiés extraíbles y portaobjetos delantero. Incluye llave y bocina. Edad recomendada: A partir de 6 meses. Dimensiones: 71 x 43.5 x 37.5 cm. Nota: No incluye acolchado.",
     retail_price: "80613.52",
     final_retail_price: 80613.52,
-    stock: 8,
-    available: "Disponible",
+    stock: 8,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_buggy_rojo_rondi1-dc97f64bfb5cf80f0116667131224040-640-0.webp",
@@ -580,8 +550,7 @@ const products = [
       "Paseador Extra Resistente: Con un diseño único que llevará a tu nene a donde quiera, se adapta a las diferentes necesidades de los chiquitos durante su crecimiento. Posee barra de arrastre, apoyapiés extraíbles y portaobjetos delantero. Incluye llave y bocina. Edad recomendada: A partir de 6 meses. Dimensiones: 71 x 43.5 x 37.5 cm. Nota: No incluye acolchado.",
     retail_price: "80613.52",
     final_retail_price: 80613.52,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_r1_team_rojo_rondi-c6a65e7731ed91288d16590557251570-640-0.webp",
@@ -599,8 +568,7 @@ const products = [
       'Todos van a querer tener esta exclusiva moto con ruedas "todo terreno". Diseño único, ruedas anchas para mayor estabilidad y toda la diversión. Edad recomendada: A partir de 2 años. Dimensiones: 60 x 36 x 43 cm.',
     retail_price: "51315.59",
     final_retail_price: 51315.59,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_r1_team_rojo_rondi-c6a65e7731ed91288d16590557251570-640-0.webp",
@@ -618,8 +586,7 @@ const products = [
       'Moto "Todo Terreno" Rondi: ¡En Rondi también innovamos! Todos van a querer tener esta exclusiva moto con ruedas "todo terreno", diseñada con un estilo único y ruedas anchas para mayor estabilidad y diversión. Edad recomendada: A partir de 2 años. Dimensiones: 60 x 36 x 43 cm.',
     retail_price: "51315.59",
     final_retail_price: 51315.59,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_r1_team_rosa_rondi-00d0f723cd4943935216631102719854-640-0.webp",
@@ -637,8 +604,7 @@ const products = [
       "Andador Evolutivo Rondi: Cuatro opciones en un solo andador, con cuatro posiciones distintas para que tu bebé disfrute de diversas formas. Este andador evolutivo incluye un apoyo mecedor, un asiento confortable y protector, un aro de seguridad con una bandeja de actividades para mecer y entretener a los más pequeños, además de una barra de arrastre para pasear con total seguridad. Edad recomendada: A partir de 6 meses. Dimensiones: 86 x 42 x 80 cm.",
     retail_price: "67396.97",
     final_retail_price: 67396.97,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/foto-4-en-1-cfac9d7be1ecfe1ee517059338144500-640-0.webp",
@@ -656,8 +622,7 @@ const products = [
       "Andador Rondi, ¡A pasear! Es tan cómodo que tu nene querrá ir con él a todos lados. Aro de protección, barra de arrastre, bandeja de actividades, apoyapiés y portaobjetos. Antivuelco delante y detrás. Dimensiones: 86 x 42 x 80 cm. Edad recomendada: A partir de 10 meses.",
     retail_price: "58536.34",
     final_retail_price: 58536.34,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_2_en_1_maxi_rondi-b8f51fca440301a7dc16590556610854-640-0.webp",
@@ -675,8 +640,7 @@ const products = [
       "Correpasillos Rondi, Este correpasillos se convertirá rápidamente en el amigo preferido de los chicos. Cuenta con bocina, llave, mordillo, portaobjetos, barra de arrastre, apoyapiés y aro de seguridad extraíble. Antivuelco delante y detrás. Dimensiones: 80 x 45 x 75 cm. Edad recomendada: A partir de 10 meses.",
     retail_price: "53872.94",
     final_retail_price: 53872.94,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_2_en_1_aventura_2en1_rondi-ef7d15afde348f43ae16590556429827-640-0.webp",
@@ -694,8 +658,7 @@ const products = [
       "Andador para paseos super seguro. Cuenta con bocina, llave, mordillo, portaobjetos, barra de arrastre, apoyapiés y aro de seguridad extraíble. Además, posee un sistema antivuelco en la parte delantera y trasera. Edad recomendada: A partir de 10 meses. Dimensiones: 80 x 45 x 75 cm.",
     retail_price: "61272.23",
     final_retail_price: 61272.23,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_2_en_1_beach_parol_rondi-b359db484f1411ea4516590556368620-640-0.webp",
@@ -713,8 +676,7 @@ const products = [
       "Maxi Top es un práctico andador evolutivo. Viene con aro de protección, barra de arrastre, llave, bocina, apoyapiés y portaobjetos. ¡Nunca fue tan divertido salir a dar una vuelta! Edad recomendada: A partir de 10 meses. Dimensiones: 80 x 45 x 75 cm.",
     retail_price: "51229.63",
     final_retail_price: 51229.63,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_2_en_1_maxi_top_rondi-982c1530db90f91e7a16590556309055-640-0.webp",
@@ -732,8 +694,7 @@ const products = [
       "Todos querrán pasear por lo práctico que es. Cuenta con aro de protección, barra de arrastre, llave, bocina, apoyapiés y portaobjetos. Edad recomendada: A partir de 10 meses. Dimensiones: 80 x 45 x 75 cm.",
     retail_price: "51229.63",
     final_retail_price: 51229.63,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/2en1_maxi_star-01-eba7405da20ba6607217210726537003-640-0.webp",
@@ -751,8 +712,7 @@ const products = [
       "Andador divertido que permite a tu bebé salir de paseo y jugar a encastrar. Viene equipado con aro de contención, barra de arrastre metálica, bocina, juegos didácticos y apoyapiés, garantizando una experiencia de juego super segura. Edad recomendada: A partir de 6 meses. Dimensiones: 44.5 x 38 x 22 cm.",
     retail_price: "44243.62",
     final_retail_price: 44243.62,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_2_en_1_didactico_rondi-b5f3c6abdf272169db16590560572112-640-0.webp",
@@ -770,8 +730,7 @@ const products = [
       "Práctico andador para los más pequeños. Incluye baúl porta objetos y set de herramientas. Edad recomendada: A partir de 10 meses. Dimensiones: 57 x 28 x 40 cm.",
     retail_price: "39047.92",
     final_retail_price: 39047.92,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_auxilio_mecanico_rondi-df9cd0f170f2f3648016590557597444-640-0.webp",
@@ -789,8 +748,7 @@ const products = [
       "Práctico andador para jugar a ser una experta en belleza. Incluye baúl porta objetos y set de accesorios. Edad recomendada: A partir de 10 meses. Dimensiones: 570 x 280 x 400.",
     retail_price: "41600.31",
     final_retail_price: 41600.31,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/beauty-ef3a0c931750cb950a17164036562046-640-0.webp",
@@ -808,8 +766,7 @@ const products = [
       "Este andador hará su paseo más divertido. Su amigable diseño rápidamente se convierte en el amigo preferido de los chicos. Los acompañarán en sus primeros pasos con una seguridad óptima. Edad recomendada: A partir de 10 meses. Dimensiones: 54 x 24 x 39.5cm.",
     retail_price: "40722.51",
     final_retail_price: 40722.51,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_elefante_azul_rondi-1bf70dfafe2a5b85c116590556985581-640-0.webp",
@@ -827,8 +784,7 @@ const products = [
       "Este andador hará su paseo más divertido. Su amigable diseño rápidamente se convierte en el amigo preferido de los chicos. Los acompañarán en sus primeros pasos con una seguridad óptima. Edad recomendada: A partir de 10 meses. Dimensiones:",
     retail_price: "40722.51",
     final_retail_price: 40722.51,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_elefante_rosa_rondi-5742d8938ac10b30e116631095332183-640-0.webp",
@@ -846,8 +802,7 @@ const products = [
       "Al hipopótamo también lo querrán como su mejor amigo! Es cómodo, super seguro y colorido. Tiene protección antivuelco y está diseñado para que los nenes disfruten cada día de una nueva aventura. Edad recomendada: A partir de 10 meses. Dimensiones: 53.5 x 23.5 x ",
     retail_price: "36641.01",
     final_retail_price: 36641.01,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_hipo_movil_rondi-5eab4bdce9ad88515916590557184836-640-0.webp",
@@ -865,8 +820,7 @@ const products = [
       "Pasear con Mr. Puppy es super divertido y seguro porque está diseñado con antivuelco, bocina y portaobjetos. ¡Lo va a querer llevar a todos lados! Edad recomendada: A partir de 10 meses. Dimensiones: 53.5 x 23.5 x 39",
     retail_price: "38186.66",
     final_retail_price: 38186.66,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_mr_puppy_rondi-128a33dd6df834257f16590557376224-640-0.webp",
@@ -884,8 +838,7 @@ const products = [
       "Para que tu hijo sea un verdadero bombero valiente, Rondi tiene un andador compacto super cómodo que le permitirá hacer volar su imaginación. Edad recomendada: A partir de 10 meses. Dimensiones: 57 x 28 x 40cm.",
     retail_price: "42335.94",
     final_retail_price: 42335.94,
-    stock: 6,
-    available: "Disponible",
+    stock: 6,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_bombero_rondi-71cbf6e11bfff8e4e416590556799018-640-0.webp",
@@ -903,8 +856,7 @@ const products = [
       "Para que tu hijo sea un policía valiente, Rondi tiene un andador compacto super cómodo que le permitirá hacer volar su imaginación. Edad recomendada: A partir de 10 meses. Dimensiones: 57 x 28 x 40cm.",
     retail_price: "42335.94",
     final_retail_price: 42335.94,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_police_top_rondi1-bc66959cb7f441c0c316641812865113-640-0.webp",
@@ -922,8 +874,7 @@ const products = [
       "Divertido correpasillos para que el niño lo utilice a toda velocidad y se convierta en un verdadero piloto. Cuenta con portaobjetos debajo del asiento. Edad recomendada: A partir de 10 meses. Dimensiones: 46 x 23 x 38 cm.",
     retail_price: "32252.02",
     final_retail_price: 32252.02,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_infantil_racing_rondi-319dfe22ccb8d1299f16590557439096-640-0.webp",
@@ -941,8 +892,7 @@ const products = [
       "Este correpasillos es ideal para disfrutar de diversos paseos. Cuenta con control de dirección y portaobjetos debajo del asiento. Edad recomendada: A partir de 10 meses. Dimensiones: 46 x 23 x 38 cm.",
     retail_price: "31904.87",
     final_retail_price: 31904.87,
-    stock: 0,
-    available: "Disponible",
+    stock: 0,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/andador_flower_rondi-ee6506db586d24ea5916590557119988-640-0.webp",
@@ -960,8 +910,7 @@ const products = [
       "Triciclo evolutivo muy resistente con estructura metálica. Incluye embrague, barra de arrastre, aro de contención, pedales antideslizantes, canasto trasero, apoyapiés y porta mamaderas. Edad recomendada: A partir de 18 meses. Dimensiones: 45.5 x 87 x 80 cm.",
     retail_price: "66940.71",
     final_retail_price: 66940.71,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/triciclo_go_azul_rondi-5cf7f2a73a3267632d16590556184886-640-0.webp",
@@ -979,8 +928,7 @@ const products = [
       "Triciclo evolutivo muy resistente con estructura metálica. Cuenta con embrague, barra de arrastre, aro de contención, pedales antideslizantes, canasto trasero, apoyapiés y porta mamaderas. Edad recomendada: A partir de 18 meses. Dimensiones: 45.5 x 87 x 80 cm.",
     retail_price: "66940.71",
     final_retail_price: 66940.71,
-    stock: 7,
-    available: "Disponible",
+    stock: 7,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/triciclo_go_rosa_rondi-cd11b5928c1751117616631090194545-640-0.webp",
@@ -998,8 +946,7 @@ const products = [
       "El Maxi Garage 4 niveles tiene todas las funciones indispensables: surtidores de gasolina, elevador de reparación, lavadero de autos y autoservicio. Los chicos pueden subir los autos en el montacargas y luego deslizarlos por las 3 rampas con sus manos (los autos no se mueven solos), sintiéndose en una estación de servicio real con sonidos de bocina y sirenas. Incluye 2 autos. Edad recomendada: A partir de 3 años. Dimensiones: 90 x 80 x 60 cm. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar. Garantía: 3 meses (90 días corridos).",
     retail_price: "66960.55",
     final_retail_price: 66960.55,
-    stock: 9,
-    available: "Disponible",
+    stock: 9,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/maxi_garage_rondi-b132eb9a9e3eb25e9c16590559008534-640-0.webp",
@@ -1017,8 +964,7 @@ const products = [
       "Garage súper completo de 5 niveles a pura diversión. Cuenta con elevador de reparaciones, lava autos, bomba de gasolina, ascensor y pista con señales de tránsito, permitiendo múltiples configuraciones. Incluye 2 autos. Edad recomendada: A partir de 3 años. Dimensiones: 96 x 71 x 65 cm. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar. Garantía: 3 meses (90 días corridos).",
     retail_price: "60338.22",
     final_retail_price: 60338.22,
-    stock: 10,
-    available: "Disponible",
+    stock: 10,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rp_5_niveles_rondi-9227a3e363d15b9b5d16590559202854-640-0.webp",
@@ -1036,8 +982,7 @@ const products = [
       "Estacionamiento súper completo con elevador de reparación, surtidor de gasolina, lavadero de autos, pistas con señales de tránsito y ascensor. Incluye 2 autos. Edad recomendada: A partir de 3 años. Dimensiones: 88 x 48 x 54 cm. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar. Garantía: 3 meses (90 días corridos).",
     retail_price: "56245.14",
     final_retail_price: 56245.14,
-    stock: 12,
-    available: "Disponible",
+    stock: 12,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rp_4_niveles_rondi-268327305888a3884f16590559139345-640-0.webp",
@@ -1055,8 +1000,7 @@ const products = [
       "Garage de 2 niveles de pura diversión. Cuenta con elevador de reparaciones, lava autos, bomba de gasolina y pistas con señales de tránsito. Incluye 2 autos. Edad recomendada: A partir de 3 años. Dimensiones: 72 x 48 x 31 cm. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar. Garantía: 3 meses (90 días corridos).",
     retail_price: "30701.41",
     final_retail_price: 30701.41,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/rp_2_niveles_rondi-d4cb1f86c493dde6c216590559075105-640-0.webp",
@@ -1074,8 +1018,7 @@ const products = [
       "Lava los autos con agua real en este divertido lavadero de autos. Incluye cinta transportadora y dos autos. Edad recomendada: A partir de 3 años. Dimensiones: 60 x 39 x 20 cm. Las fotos son de carácter ilustrativo y los colores de las piezas pueden variar. Garantía: 3 meses (90 días corridos).",
     retail_price: "39657.92",
     final_retail_price: 39657.92,
-    stock: 1,
-    available: "Disponible",
+    stock: 1,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/car_wash_rondi-0f61d175a53b48e23116590558943158-640-0.webp",
@@ -1093,8 +1036,7 @@ const products = [
       "Garage de 1 nivel de pura diversión. Cuenta con elevador de reparaciones, lava autos, bomba de gasolina y pistas con señales de tránsito. Incluye 2 autos. Edad recomendada: A partir de 3 años. Dimensiones: 29 x 40 x 20 cm.",
     retail_price: "22072.22",
     final_retail_price: 22072.22,
-    stock: 1,
-    available: "Disponible",
+    stock: 1,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/parking_1_nivel_rondi1-31d85f66ef9b8a7c3316631947963326-640-0.webp",
@@ -1112,8 +1054,7 @@ const products = [
       "Las pistas Rondi son la forma más rápida y fácil de empezar a jugar, armar y divertirse. Incluye 2 autos (colores aleatorios), 6 señales de tránsito, 4 curvas y 4 tramos rectos. Dimensiones: 45 x 45 cm.",
     retail_price: "9257.37",
     final_retail_price: 9257.37,
-    stock: 1,
-    available: "Disponible",
+    stock: 1,    
     discount: 0,
     image_url:
       "https://acdn.mitiendanube.com/stores/002/280/851/products/pistas_rondi_111-ac527ca5f1bd83606d16738984993165-640-0.webp",
@@ -1131,8 +1072,7 @@ const products = [
       "Dulce bebote de plastisol con ojos abiertos. Viene con chupete. Compartí momentos de juego y diversión con Cata. CUERPO: Plastisol, TAMAÑO: 30 cm, OJOS: Abiertos, ROPA: Ropa surtida, ACCESORIOS: Chupete. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "19,897.36 ",
     final_retail_price: 19897.36,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717727872/RYS-265-CATA-scaled-400x400_xxswlg.jpg?_s=public-apps",
@@ -1150,8 +1090,7 @@ const products = [
       "Es hora de llevar a dormir a Cata. Dale la mamadera y acostala a dormir en su cuna. Dulce bebote de plastisol con ojos abiertos. Viene con chupete. Compartí momentos de juego y diversión con Cata. CUERPO: Plastisol, TAMAÑO: 30 cm, OJOS: Abiertos, ROPA: Ropa surtida, ACCESORIOS: Chupete, mamadera y cuna. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "27,894.24 ",
     final_retail_price: 27894.24,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777586/269-CATA-en-cuna-400x400_pa9qt1.jpg?_s=public-apps",
@@ -1169,8 +1108,7 @@ const products = [
       "Bebote recién nacido de apariencia real. Tiene el cuerpo de plastisol y los ojos abiertos. July te espera para que la abraces y la cuides. CUERPO: Plastisol, TAMAÑO: 39 cm, OJOS: Abiertos, ROPA: Ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "35,705.14 ",
     final_retail_price: 35705.14,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777596/365-JULY-scaled-400x400_lmmwkx.jpg?_s=public-apps",
@@ -1188,8 +1126,7 @@ const products = [
       "Bebote recién nacido de apariencia real. Tiene el cuerpo de plastisol y ojos abiertos. July te espera para que la abraces y la cuides. Viene con bolsa mochila para que la lleves a pasear o guardes tus juguetes. CUERPO: Plastisol, TAMAÑO: 39 cm, OJOS: Abiertos, ROPA: Ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "36,820.99 ",
     final_retail_price: 36820.99,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777596/368-JULY-en-mochila-1-scaled-400x400_f8hakl.jpg?_s=public-apps",
@@ -1207,8 +1144,7 @@ const products = [
       "Es hora de llevar a dormir a July. Dale la mamadera y acostala a dormir en su cuna. Bebote recién nacido de apariencia real. Tiene el cuerpo de plastisol y los ojos abiertos. July te espera para que la abraces y la cuides. CUERPO: Plastisol, TAMAÑO: 39 cm, OJOS: Abiertos, ROPA: Ropa surtida, ACCESORIOS: Mamadera y cuna. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "45,747.74 ",
     final_retail_price: 45747.74,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777596/369-JULY-2-scaled-400x400_lvyxyl.jpg?_s=public-apps",
@@ -1226,8 +1162,7 @@ const products = [
       "Compartí horas de juego con tu Bebito. Cuando lo inclinás llora. Cuidalo mucho! Tiene brazos, piernas y cabeza de suave plastisol, y el cuerpo blandito. Abre y cierra los ojos al acostarlo. Podés cambiarle la ropita y darle el chupete. CABEZA Y EXTREMIDADES: Plastisol, CUERPO: Relleno, TAMAÑO: 45 cm, OJOS: Movibles, abre y cierra, CARACTERÍSTICAS: Llora, ROPA: Surtida, ACCESORIOS: Chupete. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "21065.27",
     final_retail_price: 21065.27,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/105_xqocib.jpg?_s=public-apps",
@@ -1246,7 +1181,6 @@ const products = [
     retail_price: "22990.10",
     final_retail_price: 22990.1,
     stock: 2,
-    available: "Disponible",
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/115_alioit.jpg?_s=public-apps",
@@ -1264,8 +1198,7 @@ const products = [
       "Llevá a dormir a tu bebito. Tiene la cabecita de plastisol y los ojitos cerrados. El cuerpo está relleno de suave vellón siliconado. Viene con una almohadita para que lo acuestes a dormir. CABEZA: Plastisol, OJOS: Cerrados, CUERPO: Soft, relleno de suave vellón siliconado, TAMAÑO: 30 cm, ACCESORIOS: Almohada. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "8339.07",
     final_retail_price: 8339.07,
-    stock: 2,
-    available: "Disponible",
+    stock: 2,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/121-Dormidito_wyzabg.jpg?_s=public-apps",
@@ -1283,8 +1216,7 @@ const products = [
       "Tiene la cabecita en suave plastisol y los ojitos decorados. El cuerpo está relleno de vellón siliconado. Viene con divertidas estampas para que elijas la que más te gusta. CABEZA: Plastisol, OJOS: Decorados, CUERPO: Soft – Relleno de suave vellón siliconado, TAMAÑO: 30 cm. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "8339.07",
     final_retail_price: 8339.07,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/135-Babysoft-chico-400x400_uyrlc9.jpg?_s=public-apps",
@@ -1302,8 +1234,7 @@ const products = [
       "Tiene la cabecita en suave plastisol y los ojitos abiertos. El cuerpo está relleno de vellón siliconado. Viene con divertidas estampas para que elijas la que más te gusta. CABEZA: Plastisol, OJOS: Abiertos, CUERPO: Soft, relleno de suave vellón siliconado, TAMAÑO: 40 cm. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "11954.41",
     final_retail_price: 11954.41,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/145-Babysoft-mediano-400x400_dohkwj.jpg?_s=public-apps",
@@ -1321,8 +1252,7 @@ const products = [
       "Bebote de apariencia real de cuerpo soft. Abre y cierra los ojos al acostarla. Compartí horas de juego con ella. Podés darle la mamadera, llevarla a pasear y acostarla a dormir con vos. CABEZA Y EXTREMIDADES: Plastisol, CUERPO: Relleno de suave vellón siliconado, TAMAÑO: 45 cm, OJOS: Movibles, abre y cierra, ROPA: Ropa surtida, ACCESORIOS: Chupete y mamadera. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "24336.55",
     final_retail_price: 24336.55,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777577/145-Babysoft-mediano-400x400_dohkwj.jpg?_s=public-apps",
@@ -1340,8 +1270,7 @@ const products = [
       "Bebe bebito de plastisol con ojos abiertos, con bombacha y babero. CUERPO: Plastisol, TAMAÑO: 26 cm, OJOS: Abiertos, ROPA: Con Babero. Los colores y estampados pueden variar respecto a la imagen",
     retail_price: "12644.37",
     final_retail_price: 12644.37,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777578/200-BEBELIN-chico-A-020-1-scaled-400x400_iuwaam.jpg?_s=public-apps",
@@ -1359,8 +1288,7 @@ const products = [
       "Bebito de plastisol de apariencia real con ojos abiertos, tamaño 23 cm, con bombacha y babero; presenta distintos gestos. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "12830.34",
     final_retail_price: 12830.34,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777578/201-Babylove-chico-scaled-400x400_zi9usz.jpg?_s=public-apps",
@@ -1378,8 +1306,7 @@ const products = [
       "Lola va al jardín de infantes con su guardapolvo y bolsita, tamaño 23 cm, cuerpo de plastisol, ojos abiertos y presenta distintos gestos. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "15062.03",
     final_retail_price: 15062.03,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777581/212-Lola-nva-scaled-400x400_hzzedh.jpg?_s=public-apps",
@@ -1397,8 +1324,7 @@ const products = [
       "Bebito de plastisol de apariencia real, tamaño 23 cm, con ojos abiertos y ropa surtida que se le puede cambiar. Cuidalo mucho, presenta distintos gestos. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "14876.06",
     final_retail_price: 14876.06,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777581/215-babylove-chico400x400_xssd1a.jpg?_s=public-apps",
@@ -1416,8 +1342,7 @@ const products = [
       "Bebote de plastisol de apariencia real, tamaño 35 cm, con ojos abiertos y ropa con bombacha y babero. Presenta distintos gestos. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "19897.36",
     final_retail_price: 19897.36,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,   
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777582/221-Babylove-mediano-scaled-400x400_u5sdt5.jpg?_s=public-apps",
@@ -1435,8 +1360,7 @@ const products = [
       "Bebote de plastisol de apariencia real, tamaño 35 cm, con ojos abiertos y ropa surtida que se puede cambiar. Presenta distintos gestos. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "25848.52",
     final_retail_price: 25848.52,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777582/225-BABYLOVE-mediano-nuevo-scaled-400x400_p3ivf2.jpg?_s=public-apps",
@@ -1454,8 +1378,7 @@ const products = [
       "Bebote de plastisol de apariencia real, tamaño 42 cm, con ojos abiertos y ropa que incluye bombacha y babero. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "27894.24",
     final_retail_price: 27894.24,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777582/231-Babylove-grande-con-babero-400x400_rioswp.jpg?_s=public-apps",
@@ -1473,8 +1396,7 @@ const products = [
       "Bebote de plastisol de apariencia real, tamaño 42 cm, con ojos abiertos y ropa surtida que se puede cambiar. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "33845.40",
     final_retail_price: 33845.4,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777585/235-Babylove-Grande-con-ropa-400x400_xl9ryv.jpg?_s=public-apps",
@@ -1492,8 +1414,7 @@ const products = [
       "Bebito recién nacido de apariencia real, tamaño 26 cm, con cuerpo de plastisol y ojos cerrados. Viene con ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "15805.93",
     final_retail_price: 15805.93,
-    stock: 3,
-    available: "Disponible",
+    stock: 3,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777586/245-RECIEN-NACIDO-DORMIDITO-A-028-400x400_zxml8l.jpg?_s=public-apps",
@@ -1511,8 +1432,7 @@ const products = [
       "Bebé de plastisol con ojos abiertos, tamaño 30 cm. Zoe te está esperando para jugar con vos y viene con ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "17851.64",
     final_retail_price: 17851.64,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,   
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777586/255-ZOE-1-scaled-400x400_j7k0ca.jpg?_s=public-apps",
@@ -1530,8 +1450,7 @@ const products = [
       "Bebote de apariencia real de 35 cm con ojos abiertos. Emma te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. El cuerpo es de plastisol y viene con ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "25848.52",
     final_retail_price: 25848.52,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777586/325-EMMA-A-001-1-scaled-400x400_amrt1y.jpg?_s=public-apps",
@@ -1549,8 +1468,7 @@ const products = [
       "Bebote de apariencia real de 35 cm con ojos abiertos. Emma te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. El cuerpo es de plastisol y viene con ropa surtida. Incluye una bolsa mochila para llevarla a pasear o guardar tus juguetes. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "26964.37",
     final_retail_price: 26964.37,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777587/328-EMMA-en-MOCHILA-A-016-2-scaled-400x400_oqo3ws.jpg?_s=public-apps",
@@ -1568,8 +1486,7 @@ const products = [
       "Bebote de apariencia real de 35 cm con ojos abiertos. Chloe te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. Su cuerpo es de plastisol y viene con ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "26778.39",
     final_retail_price: 26778.39,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777591/335-CHLOE-A-007-1-scaled-400x400_aaw7vd.jpg?_s=public-apps",
@@ -1587,8 +1504,7 @@ const products = [
       "Bebote de apariencia real de 35 cm con ojos abiertos. Chloe te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. Su cuerpo es de plastisol y viene con ropa surtida. Incluye una bolsa mochila para llevarla a pasear o guardar tus juguetes.",
     retail_price: "27894.24",
     final_retail_price: 27894.24,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777591/338-CHLOE-en-MOCHILA-A-015-1-scaled-400x400_pswvh1.jpg?_s=public-apps",
@@ -1606,8 +1522,7 @@ const products = [
       "Bebote de apariencia real de 39 cm con ojos abiertos. Sophie te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. Su cuerpo es de plastisol y viene con ropa surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "36820.99",
     final_retail_price: 36820.99,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777591/338-CHLOE-en-MOCHILA-A-015-1-scaled-400x400_pswvh1.jpg?_s=public-apps",
@@ -1625,8 +1540,7 @@ const products = [
       "Bebote de apariencia real de 39 cm con ojos abiertos. Sophie te está esperando para que la cuides y juegues con ella; puedes cambiarle la ropita. Su cuerpo es de plastisol y viene con una bolsa mochila para llevarla a pasear o guardar tus juguetes. La ropa es surtida, y los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "37936.83",
     final_retail_price: 37936.83,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777592/348-SOPHIE-en-MOCHILA-A-014-1-scaled-400x400_z6wojr.jpg?_s=public-apps",
@@ -1644,8 +1558,7 @@ const products = [
       "Bebote de apariencia real de 39 cm con ojos abiertos. Puedes cambiarle la ropa y disfrutar de momentos de alegría y diversión jugando con ella. Su cuerpo es de plastisol, y la ropa es surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "36820.99",
     final_retail_price: 36820.99,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777592/355-MIA-1-scaled-400x400_p4vg8a.jpg?_s=public-apps",
@@ -1663,8 +1576,7 @@ const products = [
       "Bebote de apariencia real de 39 cm con ojos abiertos. Puedes cambiarle la ropa y disfrutar de momentos de alegría y diversión jugando con ella. Incluye una bolsa mochila para llevarla a pasear o guardar tus juguetes. Su cuerpo es de plastisol y la ropa es surtida. Los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "37936.83",
     final_retail_price: 37936.83,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777596/358-MIA-Mochila-scaled-400x400_fgnlcs.jpg?_s=public-apps",
@@ -1682,8 +1594,7 @@ const products = [
       "Bebote recién nacido de apariencia real de 40 cm con ojos abiertos. Su cuerpo es de plastisol y viene con una pulserita de la nursery. Puedes cambiarle el pañal, darle la mamadera y cuidarla con amor. Incluye pañal de verdad, batita y gorro (surtidos) como ropa, además de la mamadera. Los colores y estampados pueden variar respecto a la imagen",
     retail_price: "38680.73",
     final_retail_price: 38680.73,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777601/445-VALEN-1-scaled-400x400_hwzk0w.jpg?_s=public-apps",
@@ -1701,8 +1612,7 @@ const products = [
       "Bebote recién nacido de plastisol (40 cm) con ojos abiertos, incluye pañal de verdad, batita y gorro surtidos, mamadera y pulserita de nursery, además de una mochila para transportarlo; los colores y estampados pueden variar.",
     retail_price: "39796.57",
     final_retail_price: 39796.57,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777601/448-VALEN-mochila-scaled-400x400_jahmlj.jpg?_s=public-apps",
@@ -1720,8 +1630,7 @@ const products = [
       "Llegó la hora del baño de tu bebito, que viene con una bañadera, esponjita y un frasquito para shampoo; sécalo con su toallón y ponle su mallita. Cuerpo de plastisol, tamaño 26 cm, ojos abiertos, ropa incluye malla y toallón, y accesorios como bañadera, toallón, esponja y frasco para shampoo; los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "19897.36",
     final_retail_price: 19897.36,
-    stock: 5,
-    available: "Disponible",
+    stock: 5,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777578/207-OK-Bebelin-Burbujitas-A-023-scaled-400x400_gyjkzd.jpg?_s=public-apps",
@@ -1739,8 +1648,7 @@ const products = [
       "Llegó la hora del baño de tu bebito, un bebote de plastisol (23 cm) con ojos abiertos y distintos gestos, que viene con bañadera, esponjita y un frasquito para shampoo; sécalo con su toallón y ponle su mallita. Incluye ropa (malla y toallón) y accesorios (bañadera, toallón, esponja y frasco para shampoo); los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "21943.07",
     final_retail_price: 21943.07,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777581/217-Burbujitas-Chico-400x400_u2ihb1.jpg?_s=public-apps",
@@ -1758,8 +1666,7 @@ const products = [
       "Llegó la hora del baño de tu bebito, un bebote de plastisol (35 cm) con ojos abiertos y distintos gestos, que viene con bañadera, esponjita y un frasquito para shampoo; sécalo con su toallón y ponle su mallita. Incluye ropa (malla y toallón) y accesorios (bañadera, toallón, esponja y frasco para shampoo); los colores y estampados pueden variar respecto a la imagen",
     retail_price: "29753.98",
     final_retail_price: 29753.98,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717779266/227-Burbujitas-Mediano-400x400_pw7n10.jpg?_s=public-apps",
@@ -1777,8 +1684,7 @@ const products = [
       "Tierna y divertida Pepona con cabeza de plastisol, pelo de lana, y ojos fijos; su cuerpo es de tela relleno de suave vellón siliconado, mide 35 cm y viene con ropa surtida; los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "19897.36",
     final_retail_price: 19897.36,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777605/530-Pepona-chica-400x400_nixpan.jpg?_s=public-apps",
@@ -1796,8 +1702,7 @@ const products = [
       "Tierna y divertida Pepona con cabeza de plastisol, pelo de lana y ojos decorados; su cuerpo es de tela relleno de suave vellón siliconado, mide 40 cm y viene con ropa surtida; los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "27894.24",
     final_retail_price: 27894.24,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777605/530-PEPONA-MEDIANA-400x400_d6attb.jpg?_s=public-apps",
@@ -1815,8 +1720,7 @@ const products = [
       "Tierna y divertida Pepona con cabeza de plastisol, pelo de lana y ojos decorados; su cuerpo es de tela relleno de suave vellón siliconado, mide 50 cm y viene con ropa surtida; los colores y estampados pueden variar respecto a la imagen",
     retail_price: "36820.99",
     final_retail_price: 36820.99,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777605/550-Pepona-grande-400x400_cvkuqw.jpg?_s=public-apps",
@@ -1834,8 +1738,7 @@ const products = [
       "Tierna y divertida Pepona con cabeza de plastisol, pelo de lana y ojos fijos; su cuerpo es de tela relleno de suave vellón siliconado, mide 70 cm y viene con ropa surtida; los colores y estampados pueden variar respecto a la imagen.",
     retail_price: "47793.45",
     final_retail_price: 47793.45,
-    stock: 4,
-    available: "Disponible",
+    stock: 4,    
     discount: 0,
     image_url:
       "https://res.cloudinary.com/shop-jugueterias/image/upload/fl_preserve_transparency/v1717777606/560-Pepona-super-400x400_u1mppw.jpg?_s=public-apps",
@@ -1868,11 +1771,3 @@ export { getProducts }
 
 
 
-//Cuando llame la funcion manejare el error
-// getProducts()
-//   .then((products) => {
-//     console.log("Productos:", products);
-//   })
-//   .catch((error) => {
-//     console.error("Error:", error.message);
-//   });

@@ -1,45 +1,78 @@
-/* EjemploFormulario.css */
 .formulario {
-  max-width: 400px; 
-  margin: 0 auto; 
-  padding: 20px; 
-    border: 1px solid var(--gray-light-color); 
-  border-radius: 8px; 
-  box-shadow: 0 2px 4px var(--box-shadow); 
-  background-color: var(--background-color); 
+  max-width: 600px;
+  margin: 5em auto;
+  padding: 1.5em;
+  background-color: var(--background-color);
+  border-radius: var(--spacing-sm);
+  box-shadow: 0 4px 8px var(--box-shadow);
+  font-family: var(--font-family-base);
 }
 
-.formulario label {
-  display: block; 
-  margin-bottom: 8px; 
-  color: var(--text-color); 
+label {
+  display: block;
+  margin-bottom: var(--spacing-xs);
+  font-weight: bold;
+  color: var(--text-color);
 }
 
-.formulario input, .formulario select, .formulario textarea{
-  width: 100%; 
-  padding: 10px; 
-  margin-bottom: 15px; 
-  border: 1px solid var(--gray-dark-color); 
-  border-radius: 4px; 
-  font-size: 16px; 
-  color: var(--text-color); 
+input,
+select,
+textarea,
+button {
+  width: 100%;
+  padding: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  border: 1px solid var(--gray-dark-color);
+  border-radius: var(--spacing-xs);
+  font-size: var(--font-size-base);
 }
 
-.formulario input:focus, .formulario select:focus, .formulario textarea:focus{
-  border-color: var(--primary-color); 
-  outline: none; 
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 4px var(--primary-color);
 }
 
-.formulario button {
-  padding: 10px 15px; 
-  background-color: var(--secondary-color); 
-  color:var(--background-color); 
-  border: none; 
-  border-radius: 4px; 
-  cursor: pointer; 
-  font-size: 16px; 
+textarea {
+  min-height: 120px;
+  resize: vertical;
 }
 
-.formulario button:hover {
-  background-color: var(--primary-color); 
+button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: var(--spacing-sm);
+  font-size: var(--font-size-base);
+  border-radius: var(--spacing-xs);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:disabled {
+  background-color: var(--gray-light-color);
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: var(--accent-color);
+  transform: scale(1.05);
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.error {
+  color: var(--error-color);
+  font-size: 0.875rem;
+  margin-top: var(--spacing-xs);
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    padding: var(--spacing-md);
+  }
 }

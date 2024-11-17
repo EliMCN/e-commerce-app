@@ -16,15 +16,24 @@ const Item = ({product}) => {
         src={product.image_url}
         alt={product.name}
         className="img-item"
-        loading="lazy" 
+        loading="lazy"
       />
       <div className="card-content">
         <h2 className="card-title">
           <i>{product.name}</i>
         </h2>
-        <p className="card-price"> $ {product.final_retail_price}</p>
-        <p className="card-available">
-           {product.available > 0 ? product.available : "No disponible"}
+        <p className="card-price">
+          {" "}
+          {new Intl.NumberFormat("es-AR", {
+            style: "currency",
+            currency: "ARS",
+          }).format(product.final_retail_price)}
+        </p>
+        {/* Mostrar "Disponible" o "No disponible" basado en el stock */}
+        <p
+          className={`card-available ${product.stock > 0 ? "" : "unavailable"}`}
+        >
+          {product.stock > 0 ? "Disponible" : "Sin Stock"}
         </p>
         <Link
           to={`/detail/${product.item_id}`}

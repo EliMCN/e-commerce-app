@@ -1,7 +1,7 @@
 /* Contacto.css */
 .contacto-container {
   max-width: 600px; 
-  margin: 2em auto; 
+  margin: 8em auto; 
   padding: 20px; 
   background-color: var(--background-color); 
   border: 1px solid var(--gray-light-color); 
@@ -12,7 +12,7 @@
 .titulo {
   text-align: center; 
   color: var(--text-color); 
-}
+  }
 
 .descripcion {
   text-align: center; 

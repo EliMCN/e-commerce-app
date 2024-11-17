@@ -1,11 +1,14 @@
+/* Header claro con sombras sutiles */
 header {
   position: fixed;
   top: 0;
   left: 0;
-  max-width: 1280px;  /*Importante*/
-  background-color: var(--background-color);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background-color: var(--background-color); /* Fondo claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
   z-index: 1000;
-  min-height: 5em;
 }
+
+
+
 
