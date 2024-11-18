@@ -36,7 +36,7 @@ const Item = ({product}) => {
           {product.stock > 0 ? "Disponible" : "Sin Stock"}
         </p>
         <Link
-          to={`/detail/${product.item_id}`}
+          to={`/detail/${product.id}`}
           aria-label={`Ver detalles de ${product.name}`}
           className="details-linkbtn"
         >

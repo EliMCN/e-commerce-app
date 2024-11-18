@@ -10,50 +10,29 @@ import Ofertas from "./pages/Ofertas/Ofertas";
 import Contacto from "./pages/Contacto/Contacto";
 import NotFound from "./pages/NotFound/NotFound";
 import Store from "./pages/Tienda/Store";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./context/CartContext"
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {CartProvider} from "./context/CartContext";
 
 import "./App.css"; // Estilos globales
 import "react-toastify/dist/ReactToastify.css";
 
-
-const categories = [
-  {category_id: 1, name: "Mochilas"},
-  {category_id: 2, name: "Librería"},
-  {category_id: 3, name: "Computación"},
-  {category_id: 4, name: "Juegos de Agua y Playa"},
-  {
-    category_id: 5,
-    name: "Juegos de Mesa y Cartas",
-  },
-  {
-    category_id: 6,
-    name: "Juguetes de Construcción",
-  },
-  {category_id: 7, name: "Juguetes para Bebés"},
-  {category_id: 8, name: "Muñecos y Muñecas"},
-  {category_id: 9, name: "Vehículos de Juguete"},
-];
-
 function App() {
+  
   return (
     <div className="container-app">
       <BrowserRouter>
         <CartProvider>
           <ToastContainer theme="dark" />
-          {/* ToastContainer:Esto es necesario para que las notificaciones funcionen */}
-          {/* Pasa categories a Header */}
-          <Header categories={categories} />
+          
+          {/* ToastContainer: Esto es necesario para que las notificaciones funcionen */}
+          <Header />
           <main className="container-main">
             <Routes>
               <Route
                 path="/"
                 element={<ItemListContainer greeting={"Tienda Magica"} />}
               />
-              <Route
-                path="/tienda"
-                element={<Store categories={categories} />}
-              />
+              <Route path="/tienda" element={<Store />} />
               <Route
                 path="/category/:idCategory"
                 element={<ItemListContainer greeting={"Nuestros Productos"} />}

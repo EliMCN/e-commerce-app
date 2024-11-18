@@ -6,7 +6,8 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 import logo from "../../assets/logo_blanco.webp";
 import "./NavBar.css";
 
-function Navbar({categories}) {
+function Navbar({ categories }) {
+  
   // Estado para controlar la visibilidad del offcanvas y el dropdown de categorías
   const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -25,7 +26,7 @@ function Navbar({categories}) {
   const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   return (
-    <header className="container-menu">
+    <div className="container-menu">
       <nav className="navbar">
         <div className="navbar-container">
           {/* Logo */}
@@ -54,17 +55,23 @@ function Navbar({categories}) {
                 Nuestros Productos
               </button>
               <ul className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}>
-                {categories.map((category) => (
-                  <li key={category.category_id}>
-                    <Link
-                      to={`/category/${category.category_id}`}
-                      className="dropdown-item"
-                      onClick={toggleDropdown}
-                    >
-                      {category.name}
-                    </Link>
+                {categories && categories.length > 0 ? (
+                  categories.map((category, index) => (
+                    <li key={index}>
+                      <Link
+                        to={`/category/${category}`}
+                        className="dropdown-item"
+                        onClick={toggleDropdown}
+                      >
+                        {category}
+                      </Link>
+                    </li>
+                  ))
+                ) : (
+                  <li>
+                    <span className="dropdown-item">No hay categorías</span>
                   </li>
-                ))}
+                )}
               </ul>
             </li>
             <li className="nav-item">
@@ -79,7 +86,7 @@ function Navbar({categories}) {
 
           {/* Carrito en el header */}
 
-          <CartWidget itemCount={5} />
+          <CartWidget />
 
           {/* Offcanvas menu para pantallas pequeñas */}
           <div
@@ -134,17 +141,17 @@ function Navbar({categories}) {
                   <ul
                     className={`dropdown-menu ${isDropdownOpen ? "show" : ""}`}
                   >
-                    {categories.map((category) => (
-                      <li key={category.category_id}>
+                    {categories.map((category, index) => (
+                      <li key={index}>
                         <Link
-                          to={`/category/${category.category_id}`}
+                          to={`/category/${category}`}
                           className="dropdown-item"
                           onClick={() => {
                             toggleDropdown();
                             toggleOffcanvas();
                           }}
                         >
-                          {category.name}
+                          {category}
                         </Link>
                       </li>
                     ))}
@@ -170,7 +177,7 @@ function Navbar({categories}) {
           </div>
         </div>
       </nav>
-    </header>
+    </div>
   );
 }
 

@@ -1,20 +1,22 @@
+import {useState} from "react";
+import {Link} from "react-router-dom";
 import ItemListContainer from "../../components/ItemListContainer/ItemListContainer";
 import Hero from "../../components/Hero/Hero";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner"; // 
+import CategoriesLoader from "../../components/CategoriesLoader/CategoriesLoader";
 import imagen from "../../assets/kid.jpg";
 import "./Store.css";
 
 const Store = () => {
-  const categories = [
-    {category_id: 1, name: "Mochilas"},
-    {category_id: 2, name: "Librería"},
-    {category_id: 3, name: "Computación"},
-    {category_id: 4, name: "Juegos de Agua y Playa"},
-    {category_id: 5, name: "Juegos de Mesa y Cartas"},
-    {category_id: 6, name: "Juguetes de Construcción"},
-    {category_id: 7, name: "Juguetes para Bebés"},
-    {category_id: 8, name: "Muñecos y Muñecas"},
-    {category_id: 9, name: "Vehículos de Juguete"},
-  ];
+  const [categories, setCategories] = useState([]);
+  const [loading, setLoading] = useState(true); // Para saber si estamos cargando categorías
+  const [error, setError] = useState(null); // Para manejar errores
+
+  // Se pasa el setCategories desde el componente Store
+  const handleSetCategories = (categories) => {
+    setCategories(categories);
+    setLoading(false); // Cuando se reciben las categorías, dejamos de cargar
+  };
 
   return (
     <div className="store-container">
@@ -34,18 +36,31 @@ const Store = () => {
       {/* Categorías */}
       <section className="categories">
         <h2 className="categories-title">Explora nuestras categorías</h2>
-        <ul className="categories-list">
-          {categories.map((category) => (
-            <li key={category.category_id}>
-              <a
-                href={`/category/${category.category_id}`}
-                className="category-link"
-              >
-                {category.name}
-              </a>
-            </li>
-          ))}
-        </ul>
+
+        {/* Llama a CategoriesLoader para cargar las categorías */}
+        <CategoriesLoader
+          setCategories={handleSetCategories}
+          setError={setError}
+        />
+
+        {/* Mostrar spinner mientras se cargan las categorías */}
+        {loading && <LoadingSpinner />}
+
+        {/* Mostrar mensaje si hay un error */}
+        {error && <p>Error al cargar las categorías: {error}</p>}
+
+        {/* Renderiza las categorías solo después de que se carguen */}
+        {!loading && categories.length > 0 && (
+          <ul className="categories-list">
+            {categories.map((category, index) => (
+              <li key={index}>
+                <Link to={`/category/${category}`} className="category-link">
+                  {category}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
 
       {/* Listado de productos */}

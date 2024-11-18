@@ -9,7 +9,7 @@ const ItemList = ({products}) => {
         <p>No hay productos disponibles en esta categoría.</p>
       ) : (
         products.map((product) => (
-          <Item product={product} key={product.item_id} />
+          <Item product={product} key={product.id} />
         ))
       )}
     </div>

@@ -13,7 +13,7 @@ const LoadingSpinner = ({loading}) => {
         <div className="loading-content">
           <div className="spinner-text">
             {/* Contenedor para el texto y el spinner */}
-            <p>Cargando catálogo...</p>
+            <p>Cargando ...</p>
             <ClipLoader
               color={"#0e747d"}
               loading={loading}
@@ -22,7 +22,7 @@ const LoadingSpinner = ({loading}) => {
             />
             <img
               src={TshirtImage}
-              alt="Cargando productos"
+              alt="Cargando datos"
               className="loading-image"
             />
           </div>

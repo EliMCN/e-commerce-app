@@ -1,38 +1,43 @@
 import {useState, useEffect} from "react";
-import {getProducts} from "../../data/data.js";
+import {doc, getDoc} from "firebase/firestore";
+import db from "../../db/db.js";
 import {useParams} from "react-router-dom";
-import ItemDetail from "../ItemDetail/ItemDetail.jsx/";
-import LoadingSpinner from "../LoadingSpinner/LoadingSpinner.jsx";
-import "./ItemDetailContainer.css"
+import ItemDetail from "../ItemDetail/ItemDetail";
+import LoadingSpinner from "../LoadingSpinner/LoadingSpinner";
 
 const ItemDetailContainer = () => {
+  const [product, setProduct] = useState(null);
+  const [category, setCategory] = useState(null); // Estado para la categoría
   const [loading, setLoading] = useState(true);
-  const [product, setProduct] = useState({});
-  const [error, setError] = useState(null); // Estado para manejar errores
+  const [error, setError] = useState(null);
   const {idProduct} = useParams();
 
-  useEffect(() => {
-    setLoading(true); // Comienza la carga
-    setError(null); // Resetea el error antes de cada carga
+  const getProductById = async () => {
+    try {
+      // Obtener el documento del producto por ID
+      const docRef = doc(db, "products", idProduct);
+      const dataDb = await getDoc(docRef);
 
-    getProducts()
-      .then((data) => {
-        const findProduct = data.find(
-          (product) => product.item_id === idProduct
-        );
-        if (!findProduct) {
-          setError("Producto no encontrado.");
-        } else {
-          setProduct(findProduct);
-        }
-      })
-      .catch((error) => {
-        console.error("Error fetching products:", error);
-        setError("Error al cargar el producto."); // Establece un mensaje de error
-      })
-      .finally(() => {
-        setLoading(false); // Termina la carga
-      });
+      if (dataDb.exists()) {
+        const productDb = {id: dataDb.id, ...dataDb.data()};
+        setProduct(productDb);
+
+        // Usar el campo `category` directamente del producto
+        const productCategory = productDb.category; // Esto es un string, no un ID
+        setCategory(productCategory); // Asignamos la categoría directamente
+      } else {
+        setError("Producto no encontrado");
+      }
+    } catch (error) {
+      console.error(error); // Log adicional para entender mejor el error
+      setError("Error al cargar el producto");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    getProductById();
   }, [idProduct]);
 
   if (loading) {
@@ -40,14 +45,10 @@ const ItemDetailContainer = () => {
   }
 
   if (error) {
-    return <p>{error}</p>; // Muestra el mensaje de error si hay un error
+    return <div>{error}</div>;
   }
 
-  return (
-    <div className="ItemDetailContainer">
-      <ItemDetail detalle={product} />
-    </div>
-  );
+  return <ItemDetail product={product} category={category} />;
 };
 
 export default ItemDetailContainer;
